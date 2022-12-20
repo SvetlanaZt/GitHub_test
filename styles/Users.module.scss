@@ -1,0 +1,68 @@
+.usersList{
+    list-style: none;
+    padding: 0;
+}
+.usersItem{
+    width: 100%;
+    display: block;
+    min-height: 180px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(233, 234, 236);
+    @media (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin-right: 30px;
+    :nth-child(2n) {
+        margin-right: 0;}
+    }
+    @media screen and (min-width: 1200px) {
+    width: calc((100% - 100px) / 3);
+//     :nth-child(2n) {
+//   margin-right: 30px;}
+  :nth-child(3n) {
+  margin-right: 0;
+}}
+}
+.usersLink{
+    display: flex;
+    justify-content: space-between;
+}
+.usersFavouriteTrue, .usersFavouriteFalse{
+    background-color: rgb(233, 234, 236);
+    fill: rgb(5, 5, 5);
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding: 1px;
+    margin-left: auto;
+}
+.usersFavouriteFalse{
+    background-color: rgb(233, 234, 236);
+    fill: white;
+}
+
+
+.usersImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.usersWraperStatistics{
+    margin-left: auto;
+}
+.usersTitle, .usersLocation, .usersSpan, .usersFollowers{
+    font-family: Permanent Marker;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #080808;
+}
+.usersTitle, .usersFollowers{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}

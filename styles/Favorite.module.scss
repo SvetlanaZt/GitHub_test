@@ -1,0 +1,27 @@
+.favoriteWrapper{
+    padding: 15px;
+}
+.favoriteTitle, .favoriteText{
+    margin: 0;
+    font-family: Permanent Marker;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #080808;
+}
+.favoriteList{
+    list-style: none;
+}
+.favoriteItem{
+    display: flex;
+    margin-bottom: 20px;
+}
+.favoriteImg{
+    margin-right: 20px;
+}
+.favoriteText{
+    font-weight: 400;
+    font-size: 20px;
+}

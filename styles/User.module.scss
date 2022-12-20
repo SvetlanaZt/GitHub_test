@@ -1,0 +1,85 @@
+.userCard{
+    background-color: #e3e3e3;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    min-height: 500px;
+    padding-top: 15px;
+    display: flex;
+     flex-direction: column;
+     @media (min-width: 768px) {
+        width: 50%;
+        min-height: 50%;
+     }
+}
+.userImg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.user{
+  background-image: linear-gradient(rgba(128, 129, 136, 0.4), rgba(116, 116, 122, 0.4)),
+  url(../public//Universe.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+.userLink{
+height: 60px;
+width: 100%;
+display: block;
+background-color: #f3786f;
+align-items: center;
+}
+.userTitle, .userList, .userSpan, .userLink, .userBio{
+    display: flex;
+    justify-content: center;
+    font-family: Permanent Marker;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #080808;
+}
+.userBio{
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.userList{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.userSpan{
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+}
+.userItem{
+    margin-right: 15px;
+}
+.userTitle{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.userButton{
+    display: block;
+    padding: 4px;
+    width: 80px;
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+    color: #0a0a0a;
+    transition: all 0.4s ease-out;
+    height: 35px;
+}
