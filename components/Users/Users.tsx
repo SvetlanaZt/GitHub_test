@@ -25,7 +25,7 @@ const Users: FC<{ user: string }> = ({ user }) => {
       dispatch(setAddFavourite(e));
     }
   };
-  // console.log(data?.login);
+
   useEffect(() => {
     favourites.map((item) => {
       item === data?.login && setShowFav(!showFav);
